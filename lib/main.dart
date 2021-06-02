@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: Builder(
-            builder: (context2) => Builder(
+            builder: (context2) => Buider(
               builder: (context3) => ElevatedButton(
                   onPressed: () {
                     Scaffold.of(context3).showSnackBar(
